@@ -55,7 +55,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ┃ ⌨️ *Prefix:* ${usedPrefix}
 ┃ ⏱️ *Uptime:* ${uptime}
 ┃ 📊 *Users:* ${totaluser}
-┃ 📂 *Registered:* ${rtotalreg}
+┃ 📂 *Registered:* ${rtotalreg
+* .ping (Check Bot Speed)}
 ╰━━━━━━━━━━━━━━━╯
 
 Type *${usedPrefix}list* to see all commands
