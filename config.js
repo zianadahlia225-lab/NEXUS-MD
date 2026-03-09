@@ -24,7 +24,7 @@ global.mods = ['917605902011', '32460248586']
 global.allowed = ['917605902011', '32460248586', '19152999993']
 
 // Sticker WM
-global.botname = NEXUS MD
+global.botname = 'NEXUS MD'
 global.packname = 'GURU┃ᴮᴼᵀ'
 global.author = 'ᴳᵘʳᵘ ˢᵉⁿˢᵉⁱ'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
