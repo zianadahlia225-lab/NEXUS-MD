@@ -17,14 +17,14 @@ for (let i = 0; i < ownerlist.length; i += 2) {
         ownerlist[i + 1],         
         true                        
     ];
-    global.owner.push(owner);
+    global.owner.push(254756031974);
 }
 
 global.mods = ['917605902011', '32460248586']
 global.allowed = ['917605902011', '32460248586', '19152999993']
 
 // Sticker WM
-global.botname = process.env.BOTNAME
+global.botname = NEXUS MD
 global.packname = 'GURU┃ᴮᴼᵀ'
 global.author = 'ᴳᵘʳᵘ ˢᵉⁿˢᵉⁱ'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
