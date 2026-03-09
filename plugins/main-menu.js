@@ -17,7 +17,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
           ? conn.user.jid
           : m.sender
     if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-    let pp = './Assets/Gurulogo.jpg'
+    let pp = './Guru.jpg'
     let user = global.db.data.users[who]
     let { name, warn, registered, regTime, age } = global.db.data.users[who]
     let username = conn.getName(who)
@@ -49,7 +49,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ╰━━━━━━━━━━━━━━━╯
 
 ╭━━━⊰ *BOT INFO* ⊱━━━╮
-┃ 🤖 *Bot Name:* ${global.botname || 'GURU-AI'}
+┃ 🤖 *Bot Name:* ${global.botname || 'NEXUS-MD'}
 ┃ 👑 *Owner:* ${global.author || 'Guru'}
 ┃ 🖥️ *Platform:* ${platform}
 ┃ ⌨️ *Prefix:* ${usedPrefix}
@@ -175,3 +175,4 @@ const quotes = [
   'जीवन का असली मज़ा तो तब आता है, जब दूसरे आपकी ज़िंदगी जीने की कोशिश करते हैं।',
   'कुछ लोग तो इतने फालतू होते हैं, खुद की ज़िंदगी खुद ही नहीं जी पाते और दूसरों की ज़िंदगी में टांग अड़ा देते हैं।',
 ]
+
